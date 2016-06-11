@@ -1,0 +1,31 @@
+
+.top-navigation{
+	background-color: #fff;
+}
+
+.top-navigation > .contents{
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+
+.navigation-bar-links{
+	float: right;
+	list-style: none;
+	color: #838994;
+	font-size: 1.04em;
+	margin-top: 1.7em;
+}
+
+li {
+	display: inline;
+}
+
+.logo{
+	width: 20px;
+	height: 4.375em;
+}
+.active-page{
+
+}
