@@ -3,29 +3,30 @@
 	background-color: #fff;
 }
 
-.top-navigation > .contents{
-	width: 970px;
+.top-navigation .contents{
+	width: 600px;
 	height: 70px;
 	margin: 0 auto;
-}
-
-
-.navigation-bar-links{
-	float: right;
-	list-style: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
 	color: #838994;
-	font-size: 1.04em;
-	margin-top: 1.7em;
+	letter-spacing: 0.03em;
 }
 
-li {
-	display: inline;
+
+.top-navigation .links {
+	float: right;
 }
 
-.logo{
-	width: 20px;
-	height: 4.375em;
+.links > li {
+	display: inline-block;
+	padding: 0px 10px;
 }
-.active-page{
 
+.links {
+	margin-top: 2.1rem;
+}
+
+.logo {
+	padding-top: 20px;
 }
