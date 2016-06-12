@@ -104,10 +104,9 @@ button:hover {
 .cases .devices {
 	width: 15%;
 	display: inline-block;
-	border: 1px solid black;
-	box-sizing: border-box;
-	height: 4em;
-	margin: 0 auto;
+	font-size: 1.563rem;
+    margin: 2.5rem 4rem 1.875rem;
+
 }
 
 .cases h2 {
@@ -116,5 +115,11 @@ button:hover {
 	margin: 2.5rem 0 3.125rem;
 	margin-top: 7.5rem;
     font-weight: 300;
+}
+
+.cases {
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
 }
 
