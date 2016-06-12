@@ -58,7 +58,7 @@ body {
 	background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 45.938rem;
+    height: 735px;
 	}
 
 .intro .contents {
@@ -100,3 +100,21 @@ button:hover {
 	cursor: pointer;
 	background-color: green;
 }
+
+.cases .devices {
+	width: 15%;
+	display: inline-block;
+	border: 1px solid black;
+	box-sizing: border-box;
+	height: 4em;
+	margin: 0 auto;
+}
+
+.cases h2 {
+	text-align: center;
+	font-size: 2.75rem;
+	margin: 2.5rem 0 3.125rem;
+	margin-top: 7.5rem;
+    font-weight: 300;
+}
+
