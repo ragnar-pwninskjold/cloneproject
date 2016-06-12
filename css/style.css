@@ -7,15 +7,18 @@ html{
 	box-sizing:inherit;
 }
 
+body {
+	font-family: 'Roboto', sans-serif;
+
+}
 .top-navigation{
 	background-color: #fff;
 }
 
-.top-navigation .contents{
-	width: 600px;
+.top-navigation .contents {
+	width: 970px;
 	height: 70px;
 	margin: 0 auto;
-	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	color: #838994;
 	letter-spacing: 0.03em;
@@ -48,4 +51,52 @@ html{
 .links > li:hover {
 	color: red;
 	cursor: pointer;
+}
+
+.intro{
+	background-image: url("../images/background-logo.jpeg");
+	background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+	}
+
+.intro .contents {
+	color: white;
+	margin: 13% 36%;
+	position: absolute;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.intro .contents h1, h3 {
+	font-weight: 200;
+}
+
+.intro .contents h1 {
+	font-size: 3.125rem;
+}
+
+.intro .contents h3 {
+	font-size: 1.563rem;
+	margin-top: -4%
+}
+
+button {
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
+	background-color: #f15a29;
+	color: white;
+	display: block;
+	width: 35%;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: green;
 }
