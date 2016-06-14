@@ -167,3 +167,11 @@ h5, h6 {
 .contents ul {
 	padding: 0;
 }
+
+.twitter, .facebook, .insta {
+	border-radius: 1.25rem;
+	width: 2.5rem;
+	margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+}
